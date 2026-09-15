@@ -46,10 +46,10 @@ Objective:
 Pull raw data from 3 different sources and store them in a structured directory
 
 Deliverables:
-/extract/extract_customers.py
-/extract/extract_products.py
-/extract/extract_api.py
-/data/raw directory
+* /extract/extract_customers.py
+* /extract/extract_products.py
+* /extract/extract_api.py
+* /data/raw directory
 
 
 # T - Transform
@@ -82,11 +82,11 @@ Clean, standardize, validate, and prepare each dataset for integration
   - confirm expected ranges
 
 Deliverables:
-/transform/clean_customers.py
-/transform/clean_products.py
-/transform/clean_engagement.py
-/data/clean directory
-profiling.md (data quality documentation)
+* /transform/clean_customers.py
+* /transform/clean_products.py
+* /transform/clean_engagement.py
+* /data/clean directory
+*profiling.md (data quality documentation)
 
 
 # L - Load
@@ -95,10 +95,11 @@ Objective:
 Load cleaned datasets into a database, join them, and produce master dataset
 
 Deliverables:
-/load/load_to_sql.py
-/load/join_tables.sql
-/data/final/master_dataset.csv
-report.md (business insights)
+* /load/load_to_sql.py
+* /load/join_tables.sql
+* /data/final/master_dataset.csv
+* report.md (business insights)
+_______________________
 
 
 # Skill Demonstration
