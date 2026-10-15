@@ -105,11 +105,11 @@ _______________________
 
 # Skill Demonstration
 
-SQL
-Python
-Data Cleaning
-Multisource Integration
-ETL Pipeline Design
-Documentation
+* Python/Pandas
+* SQLite
+* Data cleaning
+* Multisource data integration
+* ETL pipeline design
+* Documentation
 Business Communication
 Problem Solving
