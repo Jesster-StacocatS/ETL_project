@@ -2,20 +2,20 @@ ETL PORTFOLIO PROJECT
 
 # Project Overview
 
-Organizations often collect data from multiple tools, such as CRMs, spreadsheets, exports and APIs.  Each source varies as to the format, naming conventions, and data quality.  Without proper care, this can lead to huge problems:
+Organizations often collect data from multiple tools, such as CRMs, spreadsheets, exports and APIs.  Each source varies as to the format, naming conventions, and data quality.  Without proper care, this can lead to huge problems such as report conflicts across departments, KPIs becoming inaccurate and ultimately leadership unable to trust the information in dashboards or the insights they usually bring.
 
-* Reports conflict across departments
-* KPIs become inaccurate
-* Leadership can't trust dashboards or insights
+## The Goal
 
-In this project I'm going to solve this issue for a fictitious Retailer/E-Commerce Platform by building a repeatable, documented cleaning and integration workflow.  The company's data is scattered across multiple systems, is inconsistent, unreliable and impossible to properly analyze.
+I'm going to solve this issue for a fictitious Retailer/E-Commerce Platform by building a repeatable, documented cleaning and integration workflow, and ETL pipeline (Extract, Transform, Load).  As is often the case in the real world, the company's data is scattered across multiple systems, is inconsistent, unreliable and impossible to properly analyze.
 
-I built a complete data-cleaning and multi-source integration pipeline that extracts data from 3 different sources (CSV, Excel, API), cleans and standardizes each dataset and merges them into a single, analysis ready master table.
+I build a complete data-cleaning and multi-source integration pipeline that extracts data from 3 different sources (CSV, Excel, API), cleans and standardizes each dataset and merges them into a single, analysis ready master table.
  
 
-# The Data
+## The Data
  
-For the customer dataset, I used: 
+In order to mimic reality as closely as possible, I picked datasets that were pulled from real world Brazilian E-Commerce company Olist, sourced from kaggle.
+
+For the customer dataset:
 
 * The Olist E-Commerce Customers (CSV) (source: GitHub "https://github.com/spdrio/Brazilian-E-Commerce-Public-Dataset-by-Olist")
     - it's one of the most widely used real world e-commerce datasets with customer IDs, locations, and purchase behavior
@@ -30,6 +30,7 @@ For the Engagement dataset:
 * FakeStoreAPI (JSON) (source: "https://fakestoreapi.com/")("https://github.com/nodewalker/fake-store-api")
     - provides real API endpoints with responses - perfect for extraction, normalization and integration
 
+From here on, I'll be documenting as though the above situation were true.
 
 # Executive ETL Overview
 
